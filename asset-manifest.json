@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vuna-vita/static/css/main.82934583.css",
-    "main.js": "/vuna-vita/static/js/main.bc24a6f3.js",
-    "static/js/787.0f03b286.chunk.js": "/vuna-vita/static/js/787.0f03b286.chunk.js",
-    "service-worker.js": "/vuna-vita/service-worker.js",
-    "static/media/logo.svg": "/vuna-vita/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
-    "index.html": "/vuna-vita/index.html",
-    "main.82934583.css.map": "/vuna-vita/static/css/main.82934583.css.map",
-    "main.bc24a6f3.js.map": "/vuna-vita/static/js/main.bc24a6f3.js.map",
-    "787.0f03b286.chunk.js.map": "/vuna-vita/static/js/787.0f03b286.chunk.js.map"
+    "main.css": "/static/css/main.82934583.css",
+    "main.js": "/static/js/main.e5f4d934.js",
+    "static/js/787.0f03b286.chunk.js": "/static/js/787.0f03b286.chunk.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/logo.svg": "/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/index.html",
+    "main.82934583.css.map": "/static/css/main.82934583.css.map",
+    "main.e5f4d934.js.map": "/static/js/main.e5f4d934.js.map",
+    "787.0f03b286.chunk.js.map": "/static/js/787.0f03b286.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82934583.css",
-    "static/js/main.bc24a6f3.js"
+    "static/js/main.e5f4d934.js"
   ]
 }
