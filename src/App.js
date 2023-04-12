@@ -1,11 +1,16 @@
 import logo from './logo.svg';
-import SymptomInputForm from './components/symptom-input-form/symptom-input-form.component';
+import Tabs from './components/tabs/tabs.component';
 import './App.css';
+import {Adsense} from '@ctrl/react-adsense';
 
 function App() {
   return (
     <div className="App">
-     <SymptomInputForm />
+     {/* <SymptomInputForm /> */}
+     <Tabs />
+     <Adsense
+      client="ca-pub-4276033322667538"
+    />
     </div>
   );
 }

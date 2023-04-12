@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+import studentImage from './student.png'; // Import the student image
+
 const SymptomInputForm = () => {
   const [symptoms, setSymptoms] = useState('');
   const [disorder, setDisorder] = useState('');
@@ -34,7 +36,10 @@ const SymptomInputForm = () => {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: '#f9fbfc' }}>
+      <div style={{ textAlign: 'center', margin: '1rem' }}>
+        <img src={studentImage} alt="Student" style={{ maxWidth: '20%', height: 'auto' }} />
+      </div>
       <h1>DSM-5 Mental Health Symptom Analyzer</h1>
       <form onSubmit={handleSubmit}>
         <div>
@@ -49,7 +54,7 @@ const SymptomInputForm = () => {
             required
           />
         </div>
-        <button type="submit">Analyze Symptoms</button>
+        <button type="submit">Click HERE to Analyze Symptoms</button>
       </form>
       {loading && <p>Loading...</p>}
       {disorder && (
@@ -63,6 +68,18 @@ const SymptomInputForm = () => {
           </p>
         </div>
       )}
+      <button style={{ textAlign: 'center', margin: '1rem' }}>
+        <a
+          href="mailto:louwnasteen@yahoo.com?subject=Inquiry%20about%20acquiring%20Vuna%20Vita%20Psychology%20site"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Inquire about acquiring this site
+        </a>
+      </button>
+      <p>or email <strong>louwnasteen@yahoo.com</strong></p>
     </div>
   );
 };

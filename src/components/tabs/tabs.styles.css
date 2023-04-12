@@ -1,0 +1,28 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .tab-buttons {
+    display: flex;
+  }
+  
+  .tab-buttons button {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .tab-content {
+    flex: 1;
+  }
